@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="images/netflixLogo.png" alt="Netflix Logo">
+        <img src="images/netflixLogo.png" alt="Netflix Logo" class = "logo">
         <ul>
             <li>
                 <a href = "https://www.netflix.com/ge/">მთავარი</a>
@@ -23,12 +24,18 @@
         </a>
     </header>
     <section>
-        <h1>Unlimited movies, TV shows, and more.</h1>
-        <h4>Watch anywhere. Cancel anytime.</h4>
-        <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+        <div class = "text">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h4>Watch anywhere. Cancel anytime.</h4>
+            <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+        </div>
+        
         <form>
-            <input type="email" name = "email" placeholder = "Email address">
-            <button>Get Started</button>
+            <div class = "form-position">
+                <input type="email" name = "email" placeholder = "Email address">
+                <button>Get Started</button>
+            </div>
+            
         </form>
     </section>
     <footer>
