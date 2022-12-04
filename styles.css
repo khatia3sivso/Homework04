@@ -1,5 +1,10 @@
 body{
-    background-image: url("images/netflix.jpg");
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+    ),
+    url("images/netflix.jpg")
 }
 
 .logo{
@@ -11,14 +16,72 @@ body{
     text-align: center;
 }
 h1{
-    font-size: 60px;
+    font-size: 70px;
 }
 h4{
+    margin-top: 5px;
     font-size: 30px;
 }
 h5{
     font-size: 20px;
 }
-.form-position{
-    align-content: center;
+.position{
+    text-align: center;
 }
+input{
+    padding: 14px 60px;
+    text-align: left;
+    font-size: 30px;
+}
+button{
+    padding: 14px 20px;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    size: 30px;
+    font-size: 20px;
+}
+.bposition{
+    
+    text-align: right;
+    
+}
+#buttonstyle{
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+nav{
+    text-align: right;
+    font-weight: 500;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
